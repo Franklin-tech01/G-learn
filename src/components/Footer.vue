@@ -99,9 +99,7 @@ export default {
   color: white;
 }
 
-.social-icons ion-icon:hover{
-  
-}
+
 
 /* Responsive design adjustments */
 @media (max-width: 768px) {
