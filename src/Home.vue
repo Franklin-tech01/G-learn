@@ -230,7 +230,7 @@ export default {
   width: 650px;
   border-top-left-radius: 50px;
   border-bottom-left-radius: 50px;
-  /* object-fit: cover; */
+  object-fit: cover;
 }
 
 .home__content {
@@ -493,6 +493,7 @@ span {
     border-radius: 30px;
     width: 350px;
     height: 400px;
+    object-fit: cover;
   }
 
   .second h2 {

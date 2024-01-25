@@ -9,7 +9,6 @@
             type="text"
             id="fullName"
             v-model="fullName"
-            placeholder="Enter your full name"
             required
           />
 
