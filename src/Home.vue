@@ -107,6 +107,7 @@
       </div>
     </section>
     <Waitlist />
+    <Footer />
     <!-- </div> -->
     
   </div>
@@ -119,13 +120,15 @@ import powerImg from "./assets/power.png";
 import medalImg from "./assets/medal.png";
 import publicImg from "./assets/pexels3.jpg";
 import Waitlist from "./components/Waitlist.vue";
+import Footer from "./components/Footer.vue";
 // import imgage from './assets/pexels-julia-m-cameron-4144923.jpg'/
 
 export default {
   name: "Home",
   components: {
     Navbar,
-    Waitlist
+    Waitlist,
+    Footer
 },
 
   data() {
@@ -228,8 +231,7 @@ export default {
   /* width: 100%; */
   height: 500px;
   width: 650px;
-  border-top-left-radius: 50px;
-  border-bottom-left-radius: 50px;
+ border-radius: 50px;
   object-fit: cover;
 }
 
