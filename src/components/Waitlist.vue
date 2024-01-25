@@ -9,6 +9,7 @@
             type="text"
             id="fullName"
             v-model="fullName"
+            placeholder="Enter Full Name"
             required
           />
 
@@ -96,18 +97,15 @@ input {
   padding: 8px;
   height: 50px;
   border: none;
-  /* border:  2px silver solid; */
-  /* border-radius: 4px; */
+  border:  2px silver solid;
+  border-radius: 4px;
   margin: 10px 2px;
   color: #282525;
   box-sizing: border-box;
   outline: none;
 }
 
-.distinct{
 
-  border-left: 2px solid #333;
-}
 
 button {
   background-color: #201e1e;

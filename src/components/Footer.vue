@@ -54,6 +54,7 @@ export default {
   background-color: #333;
   color: lightgray;
   padding: 40px 0;
+  margin-top: 50px;
 }
 
 .container {
@@ -92,8 +93,14 @@ export default {
   gap: 10px;
 }
 
-.social-icons ion-icons {
-  width: 24px; /* Adjust size as needed */
+.social-icons ion-icon {
+  width: 50px; /* Adjust size as needed */
+  font-size: 40px;
+  color: white;
+}
+
+.social-icons ion-icon:hover{
+  
 }
 
 /* Responsive design adjustments */
